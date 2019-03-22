@@ -1,5 +1,7 @@
  HOW TO USE: tshark -V -r <file name>|perl Tatmeasurev6.pl
+ 
  EXAMPLE:  tshark -V -r Diameter.pcap -R diameter.cmd.code==272|perl Tatmeasurev6.pl 
+           
            tshark -V -r HTTP_SOAP.cap -Y "xml.cdata && (ip.dst==10.128.56.102||ip.src==10.128.56.102)"|perl Tatmeasurev3.txt
 
 
