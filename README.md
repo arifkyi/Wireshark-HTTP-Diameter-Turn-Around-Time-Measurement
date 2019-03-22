@@ -1,4 +1,4 @@
- HOW TO USE: tshark -V -r <file name>|perl Tatmeasurev6.pl
+ <b>HOW TO USE</b>: tshark -V -r <file name>|perl Tatmeasurev6.pl
  
  EXAMPLE:  
            
