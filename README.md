@@ -3,12 +3,13 @@
  - tshark  (please note some deprecated tshark version still use -R instead of -Y)
  <b>HOW TO USE</b>: tshark -V -r <file name> -Y <wireshark premise filter> |perl Tatmeasurev6.pl
  
- EXAMPLE:  
+ <b> EXAMPLE </b>:  
            
            tshark -V -r Diameter.pcap -R diameter.cmd.code==272|perl Tatmeasurev6.pl 
            
            tshark -V -r HTTP_SOAP.cap -Y "xml.cdata && (ip.dst==192.168.1.A||ip.src==192.168.1.AB)"|perl Tatmeasurev6.pl
 
+<b> Output range </b>: in miliseconds unit
 
 
 Output example:
