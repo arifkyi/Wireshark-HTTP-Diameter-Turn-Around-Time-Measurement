@@ -1,3 +1,6 @@
+ <b> The function is</b> :
+to create distribution measurement Turn Around Time Statistic for the response time/Turn Around Time of Diameter, Http or other protocol that have Response time or 'Since' parameter in Tcpdump. So the user able to determine in which quartile (Q95,Q90 etc) their response time has resided.
+ 
  <b> Dependency :</b>
  - perl environment version 18 onwards (if work on lesser version it's okay but me the dev build with 18 onwards)
  - tshark  (please note some deprecated tshark version still use -R instead of -Y)
