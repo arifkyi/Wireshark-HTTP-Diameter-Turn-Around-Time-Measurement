@@ -1,4 +1,7 @@
- <b>HOW TO USE</b>: tshark -V -r <file name>|perl Tatmeasurev6.pl
+ <b> Dependency :</b>
+ - perl environment version 18 onwards (if work on lesser version it's okay but me the dev build with 18 onwards)
+ - tshark  (please note some deprecated tshark version still use -R instead of -Y)
+ <b>HOW TO USE</b>: tshark -V -r <file name> -Y <wireshark premise filter> |perl Tatmeasurev6.pl
  
  EXAMPLE:  
            
