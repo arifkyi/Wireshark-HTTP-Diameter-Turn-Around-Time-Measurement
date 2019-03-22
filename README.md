@@ -2,8 +2,8 @@
  
  EXAMPLE:  
            tshark -V -r Diameter.pcap -R diameter.cmd.code==272|perl Tatmeasurev6.pl 
-           
-           tshark -V -r HTTP_SOAP.cap -Y "xml.cdata && (ip.dst==10.128.56.102||ip.src==10.128.56.102)"|perl Tatmeasurev3.txt
+           tshark -V -r HTTP_SOAP.cap -Y "xml.cdata && (ip.dst==192.168.1.A||ip.src==192.168.1.AB)"|perl Tatmeasurev6.pl
+
 
 
 Output example:
